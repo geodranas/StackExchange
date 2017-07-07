@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	long N, T = 9, j = 10, M;
+	cin >> N;
+
+	while (T%N)
+	{
+		if (T / j)
+		{
+			T += (M / j);
+			j *= 10;
+		}
+		else
+		{
+			T = (T + 1) * 9;
+			j = 10;
+			M = T;
+		}
+	}
+
+	cout << T;
+}
