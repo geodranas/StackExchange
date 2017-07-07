@@ -1,0 +1,25 @@
+
+int main()
+{
+    int N, T, R = 1;
+
+    cin >> N;
+    T = N;
+
+    for (int i = 1; i <= log10(N) + 1; i++)
+    {
+        if (N % (i + 1) != T % 10)
+        {
+            R = 0;
+        }
+
+        T /= 10;
+    }
+
+    cout << R;
+}
+
+
+
+
+Link: https://codegolf.stackexchange.com/questions/129340/staircase-numbers/129912#129912
