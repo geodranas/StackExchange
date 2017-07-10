@@ -1,0 +1,30 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int Q(int N)
+{
+	int i = 1;
+
+	while (pow(i, 4) < N)
+	{
+		i++;
+	}
+	
+	if (pow(i, 4)-N > N-pow(i - 1, 4))
+		i--;
+
+	return pow(i,4);
+}
+
+int main()
+{
+	int N;
+	cin >> N;
+	cout << Q(N);
+	system("Pause");
+
+}
+
+
+// Link of the problem: https://codegolf.stackexchange.com/questions/131691/find-the-nearest-biquadratic-number/131713#131713
