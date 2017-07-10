@@ -1,2 +1,2 @@
 # StackExchange
-Code Golfs, Advice, Mini-Projects from Stack Exchange
+Code Golfs, Advice, Small algorithmic problems & Mini-Projects from Stack Exchange
