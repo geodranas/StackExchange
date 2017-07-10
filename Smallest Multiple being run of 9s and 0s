@@ -25,5 +25,5 @@ int main()
 	cout << T;
 }
 
-Link:
-https://codegolf.stackexchange.com/questions/130093/smallest-multiple-being-run-of-9-followed-by-optional-run-of-0/130121#130121
+// Link of the problem:
+// codegolf.stackexchange.com/questions/130093/smallest-multiple-being-run-of-9-followed-by-optional-run-of-0/130121#130121
